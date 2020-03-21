@@ -1,0 +1,27 @@
+<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>-->
+
+{% extends 'todo_main/common/header.html' %}
+{% load staticfiles %}
+{% block main %}
+
+<div class="col-md-12">
+    <div class="container">
+        <center><h1>todo 메인 화면입니다</h1></center>
+        <link href="{% static 'css/bootstrap.css' %}" rel="stylesheet">
+        <script src="{% static 'js/Sortable.js' %}"></script>
+        <script src="{% static 'js/bootstrap.js' %}"></script>
+        <p></p>
+    </div>
+</div>
+
+{% endblock main %}
